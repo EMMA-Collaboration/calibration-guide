@@ -1,0 +1,30 @@
+\documentclass{article}
+\input{src/packages}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}} %sets footnote marks to symbols
+
+\graphicspath{{Figures/}{../../Safety_Report/Figures/}{../../Photos/}{../../Schematics/}}%set graphics path(s) here
+\begin{document}
+\title{PGAC Detector Calibration}
+\author{\authname$^\textrm{*,}$\thanks{\hspace*{-0.5em}*Corresponding author.  {Tel.:} +1 (850) 524-8336.% \newline \hspace*{1.5em}
+ \textit{ E-mail address:} \href{mailto:lighthall@lsu.edu}{lighthall@lsu.edu} (J.\ Lighthall).}\thanks{Present address: Department of Physics and Astronomy, Louisiana State University, Baton Rouge, LA 70803, USA}\\ \small \itshape TRIUMF, 4004 Wesbrook Mall, Vancouver, BC V6T\,2A3, Canada}
+\date{\small \longusdate \today}%\formatdate{24}{2}{2009}
+\maketitle
+
+%\footnotemark[1]\footnotemark[2]
+%\footnotetext[1]{Present address: Department of Physics and Astronomy, Louisiana State University, Baton Rouge, LA 70803, USA}
+%\footnotetext[2]{Corresponding author.  Tel.: +1 (850) 524-8336. \newline  \textit{\hspace*{1.5em} E-mail address:} \href{mailto:lighthall@lsu.edu}{lighthall@lsu.edu} (J.\ Lighthall).}
+
+%\doublespacing
+%\linenumbers
+\thispagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\rfoot{\rmfamily\footnotesize\itshape\today ~\currenttime{}~\timezone}
+\input{intro}
+\input{in_beam_test}
+\input{calibration}
+%\input{simulations}
+\input{results}
+\input{appendix}
+%\input{src/time_stamp}
+
+\end{document}  

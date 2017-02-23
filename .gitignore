@@ -4,6 +4,8 @@
 *.out
 *.pdf
 *.synctex
+*.tcp
+*.tps
 !/figures/*.pdf
 
 #Emacs

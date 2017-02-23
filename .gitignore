@@ -4,6 +4,7 @@
 *.out
 *.pdf
 *.synctex
+!/figures/*.pdf
 
 #Emacs
 *~
